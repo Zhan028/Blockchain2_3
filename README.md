@@ -52,7 +52,7 @@ This project is an MVP (minimum viable product) of an AI assistant that can answ
 
 ````bash
 streamlit run app_groq.py
-```
+````
 
 Once run, the application will be available in your browser at: http://localhost:8501.
 
@@ -121,7 +121,7 @@ Available models (at the time of creation):
 The project can be easily extended in the following ways:
 
 1. **Support for additional file formats**:
-   ```python
+   ```bash
    elif file.name.endswith('.epub'):
        loader = UnstructuredEPubLoader(temp_file_path)
    ```
